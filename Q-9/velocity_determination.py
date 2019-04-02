@@ -1,7 +1,7 @@
 from math import factorial
 
-xs = [10,20,30,40,50]
-ys = [46,66,81,93,101]
+xs = [2, 4, 6, 8, 10]
+ys = [0.75, 2.00, 3.50, 5.35, 8.00]
 
 def u_dec(u,n):
     x_temp = u
@@ -32,4 +32,4 @@ def forward(x,xp,yp):
 
 print(xs)
 print(ys)
-print(forward(15,xs,ys)) 
+print(forward(5,xs,ys)) 
